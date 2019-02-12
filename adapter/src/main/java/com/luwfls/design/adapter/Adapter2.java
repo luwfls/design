@@ -1,25 +1,12 @@
 package com.luwfls.design.adapter;
 
 /**
- * 接口型适配器类
+ * 类适配模式
  */
-public class Adapter implements TargetInterface {
-    private  Adaptee adaptee;
-
-    public Adapter(Adaptee adaptee) {
-        this.adaptee = adaptee;
-    }
-
-    public Adaptee getAdaptee() {
-        return adaptee;
-    }
-
-    public void setAdaptee(Adaptee adaptee) {
-        this.adaptee = adaptee;
-    }
+public class Adapter2 extends Adaptee implements Target  {
 
     @Override
     public void request() {
-        adaptee.specificRequest();
+       super.specificRequest();
     }
 }
