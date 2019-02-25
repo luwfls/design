@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/builder/pom.xml" />
+        <option value="$PROJECT_DIR$/factory-method/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/bridge/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/composite/pom.xml" />
+        <option value="$PROJECT_DIR$/decorator/pom.xml" />
+        <option value="$PROJECT_DIR$/faceade/pom.xml" />
+        <option value="$PROJECT_DIR$/flyweight/pom.xml" />
+        <option value="$PROJECT_DIR$/chain-of-resp/pom.xml" />
+        <option value="$PROJECT_DIR$/iterator/pom.xml" />
+        <option value="$PROJECT_DIR$/mediator/pom.xml" />
+        <option value="$PROJECT_DIR$/command/pom.xml" />
+        <option value="$PROJECT_DIR$/strategy/pom.xml" />
+        <option value="$PROJECT_DIR$/template/pom.xml" />
+        <option value="$PROJECT_DIR$/state/pom.xml" />
+        <option value="$PROJECT_DIR$/observer/pom.xml" />
+        <option value="$PROJECT_DIR$/momento/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

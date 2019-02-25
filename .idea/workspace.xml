@@ -1,7 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01b4df6b-dbd4-4017-9f38-82cbafa87103" name="Default" comment="" />
+    <list default="true" id="01b4df6b-dbd4-4017-9f38-82cbafa87103" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/ChainOfRespApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chain-of-resp/src/test/java/com/luwfls/design/chainofresp/ChainOfRespApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/CommandApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Invoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/test/java/com/luwfls/design/command/CommandApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/com/luwfls/design/composite/AbstractFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/com/luwfls/design/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/com/luwfls/design/composite/CompositeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/test/java/com/luwfls/design/composite/CompositeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/luwfls/design/decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/luwfls/design/decorator/DecoratorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/luwfls/design/decorator/Icar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/test/java/com/luwfls/design/decorator/DecoratorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/FaceadeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/RegisterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/中国工商银行.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/工商局.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/税务局.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/质监局.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceade/src/test/java/com/luwfls/design/faceade/FaceadeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/src/main/java/com/luwfls/design/flyweight/ChessFlyWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/src/main/java/com/luwfls/design/flyweight/ChessFlyWeightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/src/main/java/com/luwfls/design/flyweight/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/src/main/java/com/luwfls/design/flyweight/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/src/main/java/com/luwfls/design/flyweight/FlyweightApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyweight/src/test/java/com/luwfls/design/flyweight/FlyweightApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/ConcreteMyAggreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/IteratorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/MyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/TestInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/test/java/com/luwfls/design/iterator/IteratorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/MediatorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator/src/test/java/com/luwfls/design/mediator/MediatorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/EmpMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/MomentoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/momento/src/test/java/com/luwfls/design/momento/MomentoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Observer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/ObserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Subject2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/test/java/com/luwfls/design/observer/ObserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/StateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/test/java/com/luwfls/design/state/StateApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/StrategyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/test/java/com/luwfls/design/strategy/StrategyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/main/java/com/luwfls/design/template/BankTemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/main/java/com/luwfls/design/template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/main/java/com/luwfls/design/template/TemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/test/java/com/luwfls/design/template/TemplateApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/abstract-factory/target/" />
+    <ignored path="$PROJECT_DIR$/builder/target/" />
+    <ignored path="$PROJECT_DIR$/factory-method/target/" />
+    <ignored path="$PROJECT_DIR$/simple-factory/target/" />
+    <ignored path="$PROJECT_DIR$/singleton/target/" />
+    <ignored path="$PROJECT_DIR$/adapter/target/" />
+    <ignored path="$PROJECT_DIR$/bridge/target/" />
+    <ignored path="$PROJECT_DIR$/prototype/target/" />
+    <ignored path="$PROJECT_DIR$/proxy/target/" />
+    <ignored path="$PROJECT_DIR$/composite/target/" />
+    <ignored path="$PROJECT_DIR$/decorator/target/" />
+    <ignored path="$PROJECT_DIR$/faceade/target/" />
+    <ignored path="$PROJECT_DIR$/flyweight/target/" />
+    <ignored path="$PROJECT_DIR$/chain-of-resp/target/" />
+    <ignored path="$PROJECT_DIR$/iterator/target/" />
+    <ignored path="$PROJECT_DIR$/mediator/target/" />
+    <ignored path="$PROJECT_DIR$/command/target/" />
+    <ignored path="$PROJECT_DIR$/strategy/target/" />
+    <ignored path="$PROJECT_DIR$/template/target/" />
+    <ignored path="$PROJECT_DIR$/state/target/" />
+    <ignored path="$PROJECT_DIR$/observer/target/" />
+    <ignored path="$PROJECT_DIR$/momento/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,28 +208,221 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subject2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Subject2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="e#336#337#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Observer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Emp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/Emp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CareTaker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/CareTaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmpMemento.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/EmpMemento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01singleton/src/com/luwfls/design/Singleton1.java" />
-        <option value="$PROJECT_DIR$/01singleton/src/com/luwfls/design/Singleton2.java" />
-        <option value="$PROJECT_DIR$/01singleton/src/com/luwfls/design/Singleton3.java" />
-        <option value="$PROJECT_DIR$/01singleton/src/com/luwfls/design/Singleton4.java" />
-        <option value="$PROJECT_DIR$/01singleton/src/com/luwfls/design/Client.java" />
+        <option value="$PROJECT_DIR$/prototype/src/main/java/com/luwfls/design/prototype/Client.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/luwfls/design/proxy/Star.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/luwfls/design/proxy/RealStar.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/luwfls/design/proxy/ProxyStar.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/luwfls/design/proxy/Client.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/luwfls/design/proxy/StarHandler.java" />
+        <option value="$PROJECT_DIR$/composite/src/main/java/com/luwfls/design/composite/Component.java" />
+        <option value="$PROJECT_DIR$/composite/src/main/java/com/luwfls/design/composite/AbstractFile.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/luwfls/design/decorator/Client.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/luwfls/design/decorator/Icar.java" />
+        <option value="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/工商局.java" />
+        <option value="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/质监局.java" />
+        <option value="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/税务局.java" />
+        <option value="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/中国工商银行.java" />
+        <option value="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/RegisterFacade.java" />
+        <option value="$PROJECT_DIR$/faceade/src/main/java/com/luwfls/design/faceade/Client.java" />
+        <option value="$PROJECT_DIR$/flyweight/src/main/java/com/luwfls/design/flyweight/ChessFlyWeight.java" />
+        <option value="$PROJECT_DIR$/flyweight/src/main/java/com/luwfls/design/flyweight/Coordinate.java" />
+        <option value="$PROJECT_DIR$/flyweight/src/main/java/com/luwfls/design/flyweight/Client.java" />
+        <option value="$PROJECT_DIR$/flyweight/src/main/java/com/luwfls/design/flyweight/ChessFlyWeightFactory.java" />
+        <option value="$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/LeaveRequest.java" />
+        <option value="$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/Leader.java" />
+        <option value="$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/Client.java" />
+        <option value="$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/MyIterator.java" />
+        <option value="$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/ConcreteMyAggreate.java" />
+        <option value="$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/TestInnerClass.java" />
+        <option value="$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/Client.java" />
+        <option value="$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/Mediator.java" />
+        <option value="$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/Client.java" />
+        <option value="$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/Department.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Command.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Receiver.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Invoke.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Client.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/TestStrategy.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/Client.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/Content.java" />
+        <option value="$PROJECT_DIR$/template/src/main/java/com/luwfls/design/template/BankTemplateMethod.java" />
+        <option value="$PROJECT_DIR$/template/src/main/java/com/luwfls/design/template/Client.java" />
+        <option value="$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/State.java" />
+        <option value="$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/Context.java" />
+        <option value="$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/Client.java" />
+        <option value="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Client.java" />
+        <option value="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Subject.java" />
+        <option value="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Subject2.java" />
+        <option value="$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Observer2.java" />
+        <option value="$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/EmpMemento.java" />
+        <option value="$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/Emp.java" />
+        <option value="$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/CareTaker.java" />
       </list>
     </option>
   </component>
@@ -41,96 +432,88 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="735" />
-    <option name="y" value="125" />
-    <option name="width" value="980" />
-    <option name="height" value="1030" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="momento" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="01singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="01singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="momento" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="01singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="momento" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="01singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="momento" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luwfls" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="01singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="momento" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luwfls" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="momento" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luwfls.design.bridge" />
+      <recent name="com.luwfls.design.adapter" />
       <recent name="com.luwfls.design" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.luwfls.design.proxy" />
+      <recent name="com.luwfls.design.bridge" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,49 +528,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+  <component name="RunManager" selected="Application.Client (3)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luwfls.design.template.Client" />
+      <module name="template" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luwfls.design.*" />
+          <option name="PATTERN" value="com.luwfls.design.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.luwfls.design.Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="01singleton" />
-      <envs />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luwfls.design.state.Client" />
+      <module name="state" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luwfls.design.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luwfls.design.observer.Client" />
+      <module name="observer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luwfls.design.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luwfls.design.command.Client" />
+      <module name="command" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luwfls.design.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luwfls.design.strategy.Client" />
+      <module name="strategy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luwfls.design.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luwfls.design.adapter.Client" />
+      <module name="adapter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luwfls.design.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -197,30 +611,101 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+    <configuration name="AbstractFactoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="abstract-factory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.abstractfactory.AbstractFactoryApplication" />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration name="AdapterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="adapter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.adapter.AdapterApplication" />
+    </configuration>
+    <configuration name="BridgeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bridge" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.bridge.BridgeApplication" />
+    </configuration>
+    <configuration name="BuilderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="builder" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.builder.BuilderApplication" />
+    </configuration>
+    <configuration name="ChainOfRespApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chain-of-resp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.chainofresp.ChainOfRespApplication" />
+    </configuration>
+    <configuration name="CommandApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="command" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.command.CommandApplication" />
+    </configuration>
+    <configuration name="CompositeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="composite" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.composite.CompositeApplication" />
+    </configuration>
+    <configuration name="DecoratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="decorator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.decorator.DecoratorApplication" />
+    </configuration>
+    <configuration name="FaceadeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="faceade" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.faceade.FaceadeApplication" />
+    </configuration>
+    <configuration name="FactoryMethodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="factory-method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.factorymethod.FactoryMethodApplication" />
+    </configuration>
+    <configuration name="FlyweightApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flyweight" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.flyweight.FlyweightApplication" />
+    </configuration>
+    <configuration name="IteratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="iterator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.iterator.IteratorApplication" />
+    </configuration>
+    <configuration name="MediatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mediator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.mediator.MediatorApplication" />
+    </configuration>
+    <configuration name="MomentoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="momento" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.momento.MomentoApplication" />
+    </configuration>
+    <configuration name="ObserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="observer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.observer.ObserverApplication" />
+    </configuration>
+    <configuration name="PrototypeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="prototype" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.prototype.PrototypeApplication" />
+    </configuration>
+    <configuration name="ProxyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="proxy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.proxy.ProxyApplication" />
+    </configuration>
+    <configuration name="SimpleFactoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simple-factory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.simplefactory.SimpleFactoryApplication" />
+    </configuration>
+    <configuration name="SingletonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="singleton" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.singleton.SingletonApplication" />
+    </configuration>
+    <configuration name="StateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="state" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.state.StateApplication" />
+    </configuration>
+    <configuration name="StrategyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="strategy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.strategy.StrategyApplication" />
+    </configuration>
+    <configuration name="TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luwfls.design.template.TemplateApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -233,26 +718,111 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SingletonApplication" />
+      <item itemvalue="Spring Boot.BuilderApplication" />
+      <item itemvalue="Spring Boot.SimpleFactoryApplication" />
+      <item itemvalue="Spring Boot.AbstractFactoryApplication" />
+      <item itemvalue="Spring Boot.FactoryMethodApplication" />
+      <item itemvalue="Spring Boot.AdapterApplication" />
+      <item itemvalue="Spring Boot.BridgeApplication" />
+      <item itemvalue="Spring Boot.PrototypeApplication" />
+      <item itemvalue="Spring Boot.ProxyApplication" />
+      <item itemvalue="Spring Boot.CompositeApplication" />
+      <item itemvalue="Spring Boot.DecoratorApplication" />
+      <item itemvalue="Spring Boot.FaceadeApplication" />
+      <item itemvalue="Spring Boot.FlyweightApplication" />
+      <item itemvalue="Spring Boot.ChainOfRespApplication" />
+      <item itemvalue="Spring Boot.IteratorApplication" />
+      <item itemvalue="Spring Boot.MediatorApplication" />
+      <item itemvalue="Spring Boot.CommandApplication" />
+      <item itemvalue="Application.Client (5)" />
+      <item itemvalue="Spring Boot.StrategyApplication" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Spring Boot.TemplateApplication" />
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Spring Boot.StateApplication" />
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Spring Boot.ObserverApplication" />
+      <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Spring Boot.MomentoApplication" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+      <list>
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client (5)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -265,38 +835,88 @@
       <option name="presentableId" value="Default" />
       <updated>1549335218113</updated>
       <workItem from="1549335221839" duration="4280000" />
+      <workItem from="1549956868536" duration="16990000" />
+      <workItem from="1550105599532" duration="13518000" />
+      <workItem from="1550195509509" duration="11417000" />
+      <workItem from="1550544340045" duration="634000" />
+      <workItem from="1551059523592" duration="16526000" />
     </task>
+    <task id="LOCAL-00001" summary="02-12 更新">
+      <created>1549973923729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549973923729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4280000" />
+    <option name="totallyTimeSpent" value="63365000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03282532" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32942554" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5026652" side_tool="true" weight="0.3180291" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.3180291" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.03282532" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26545843" />
+      <window_info anchor="right" id="LuaJ" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39977604" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.3180291" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26545843" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="LuaJ" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.03282532" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.3180291" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39977604" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32942554" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -304,48 +924,385 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="02-12 更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="02-12 更新" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01singleton/src/com/luwfls/design/Singleton1.java">
+    <entry file="file://$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="529">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01singleton/src/com/luwfls/design/Singleton2.java">
+    <entry file="file://$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/ChainOfRespApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01singleton/src/com/luwfls/design/Singleton3.java">
+    <entry file="file://$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01singleton/src/com/luwfls/design/Singleton4.java">
+    <entry file="file://$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/TestInnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01singleton/src/com/luwfls/design/Client.java">
+    <entry file="file://$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/Leader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="1495">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/TestInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator/src/main/java/com/luwfls/design/iterator/TestInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/ChainOfRespApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chain-of-resp/src/main/java/com/luwfls/design/chainofresp/Leader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediator/src/main/java/com/luwfls/design/mediator/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Invoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/com/luwfls/design/command/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/StrategyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/luwfls/design/strategy/Content.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/src/main/java/com/luwfls/design/template/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/src/main/java/com/luwfls/design/template/BankTemplateMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Subject2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observer/src/main/java/com/luwfls/design/observer/Observer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/src/main/java/com/luwfls/design/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/EmpMemento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/Emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/momento/src/main/java/com/luwfls/design/momento/CareTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -378,7 +1335,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6.5 (C:\develop\Python\Python36-32\python.exe) interpreter library</last-edited>
+          <last-edited>Python 3.6 interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -402,7 +1359,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>design</last-edited>
+          <last-edited>abstract-factory</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
